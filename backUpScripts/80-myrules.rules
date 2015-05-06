@@ -1,0 +1,1 @@
+KERNEL=="sdb1", SUBSYSTEM=="block", ATTRS{serial}=="0907058B4406", ATTR{size}=="976771072", ACTION=="add", SYMLINK+="BackUpHDD1", RUN+="/bin/su sebastian -c '/home/sebastian/bin/backUpScripts/launchBackUp.sh'"
